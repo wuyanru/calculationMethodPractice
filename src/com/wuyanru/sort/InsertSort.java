@@ -3,7 +3,7 @@ package com.wuyanru.sort;
 public class InsertSort {
 	
 	public static void main(String[] args) {
-		 int a[] = {3,1,5,7,2,4,9,6,10,8};      
+		 	int a[] = {3,1,5,7,2,4,9,6,10,8};      
 	        InsertSort  obj=new InsertSort();    
 	        System.out.println("≥ı º÷µ£∫");    
 	        obj.print(a);    
