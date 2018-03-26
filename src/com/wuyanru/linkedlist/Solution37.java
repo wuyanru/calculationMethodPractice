@@ -60,5 +60,6 @@ public class Solution37 {
 		 Solution37 s=new Solution37();
 		 s.deleteDuplication2(list);
 		 list.printList(list);
+		 	
 	}
 }

@@ -1,6 +1,9 @@
 package com.wuyanru.practice;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
 
 
 /**
@@ -27,6 +30,15 @@ public class Solution43 {
 			buf.append(s[i]);
 			if(i!=0 || str.trim().length()==0)
 			buf.append(" ");
+		}
+		
+		Queue list=new LinkedList();
+		list.add("111111111");
+		list.add("2222222222");
+		Iterator it=list.iterator();
+		while(it.hasNext()){
+		     String node=(String) it.next();
+		    
 		}
 		return buf.toString();
     }
